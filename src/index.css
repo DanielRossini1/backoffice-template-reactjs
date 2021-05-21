@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary-color: #00A29F;
+  --secondary-color: #5B2885;
+}
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.background-primary {
+  background-color: var(--primary-color);
+}
+
+.background-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-green-600 {
+  background-color: rgba(5, 150, 105, 1);
+}
+
+.btn-default-primary {}
